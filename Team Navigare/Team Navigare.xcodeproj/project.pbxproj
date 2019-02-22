@@ -13,7 +13,7 @@
 		A5362C0C222078E2000C6B67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5362C0A222078E2000C6B67 /* Main.storyboard */; };
 		A5362C0E222078E3000C6B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5362C0D222078E3000C6B67 /* Assets.xcassets */; };
 		A5362C11222078E3000C6B67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5362C0F222078E3000C6B67 /* LaunchScreen.storyboard */; };
-		A5362C192220799D000C6B67 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5362C182220799D000C6B67 /* ThirdViewController.swift */; };
+		A5362C1D22207B2A000C6B67 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5362C1C22207B2A000C6B67 /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		A5362C0D222078E3000C6B67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5362C10222078E3000C6B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5362C12222078E3000C6B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5362C182220799D000C6B67 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		A5362C1C22207B2A000C6B67 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				A5362C0D222078E3000C6B67 /* Assets.xcassets */,
 				A5362C0F222078E3000C6B67 /* LaunchScreen.storyboard */,
 				A5362C12222078E3000C6B67 /* Info.plist */,
-				A5362C182220799D000C6B67 /* ThirdViewController.swift */,
+				A5362C1C22207B2A000C6B67 /* ThirdView.swift */,
 			);
 			path = "Team Navigare";
 			sourceTree = "<group>";
@@ -141,9 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5362C1D22207B2A000C6B67 /* ThirdView.swift in Sources */,
 				A5362C09222078E2000C6B67 /* SecondViewController.swift in Sources */,
 				A5362C05222078E2000C6B67 /* AppDelegate.swift in Sources */,
-				A5362C192220799D000C6B67 /* ThirdViewController.swift in Sources */,
 				A5362C07222078E2000C6B67 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
